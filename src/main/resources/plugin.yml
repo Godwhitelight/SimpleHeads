@@ -1,0 +1,14 @@
+name: Simpleheads
+version: '${project.version}'
+main: me.godwhitelight.simpleheads.SimpleHeads
+authors: [ Godwhitelight ]
+description: SimpleHeads plugin
+commands:
+  head:
+    aliases:
+      - sh
+      - simplehead
+      - simpleheads
+      - gethead
+    description: 'Get heads!'
+    usage: '/head <Player name>'
